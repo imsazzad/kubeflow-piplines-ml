@@ -10,6 +10,7 @@ def _preprocess_data():
     np.save('x_test.npy', X_test)
     np.save('y_train.npy', y_train)
     np.save('y_test.npy', y_test)
+    print("saving complete")
 
 
 if __name__ == '__main__':
